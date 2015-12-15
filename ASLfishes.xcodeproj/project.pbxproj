@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15FA74EA1C1F2EEF0081BB9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA74E91C1F2EEF0081BB9A /* AppDelegate.swift */; };
+		15FA74EC1C1F2EEF0081BB9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA74EB1C1F2EEF0081BB9A /* ViewController.swift */; };
+		15FA74EF1C1F2EEF0081BB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA74ED1C1F2EEF0081BB9A /* Main.storyboard */; };
+		15FA74F11C1F2EEF0081BB9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FA74F01C1F2EEF0081BB9A /* Images.xcassets */; };
+		15FA74F41C1F2EEF0081BB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA74F21C1F2EEF0081BB9A /* LaunchScreen.storyboard */; };
+		15FA74FF1C1F2EEF0081BB9A /* ASLfishesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA74FE1C1F2EEF0081BB9A /* ASLfishesTests.swift */; };
+		15FA750A1C1F2EEF0081BB9A /* ASLfishesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75091C1F2EEF0081BB9A /* ASLfishesUITests.swift */; };
+		15FA75181C1F31040081BB9A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75171C1F31040081BB9A /* ContentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15FA74FB1C1F2EEF0081BB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15FA74DE1C1F2EEF0081BB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15FA74E51C1F2EEF0081BB9A;
+			remoteInfo = ASLfishes;
+		};
+		15FA75061C1F2EEF0081BB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15FA74DE1C1F2EEF0081BB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15FA74E51C1F2EEF0081BB9A;
+			remoteInfo = ASLfishes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15FA74E61C1F2EEF0081BB9A /* ASLfishes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASLfishes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FA74E91C1F2EEF0081BB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15FA74EB1C1F2EEF0081BB9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15FA74EE1C1F2EEF0081BB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15FA74F01C1F2EEF0081BB9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15FA74F31C1F2EEF0081BB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15FA74F51C1F2EEF0081BB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FA74FA1C1F2EEF0081BB9A /* ASLfishesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASLfishesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FA74FE1C1F2EEF0081BB9A /* ASLfishesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLfishesTests.swift; sourceTree = "<group>"; };
+		15FA75001C1F2EEF0081BB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FA75051C1F2EEF0081BB9A /* ASLfishesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASLfishesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FA75091C1F2EEF0081BB9A /* ASLfishesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLfishesUITests.swift; sourceTree = "<group>"; };
+		15FA750B1C1F2EEF0081BB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FA75171C1F31040081BB9A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15FA74E31C1F2EEF0081BB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FA74F71C1F2EEF0081BB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FA75021C1F2EEF0081BB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15FA74DD1C1F2EEF0081BB9A = {
+			isa = PBXGroup;
+			children = (
+				15FA74E81C1F2EEF0081BB9A /* ASLfishes */,
+				15FA74FD1C1F2EEF0081BB9A /* ASLfishesTests */,
+				15FA75081C1F2EEF0081BB9A /* ASLfishesUITests */,
+				15FA74E71C1F2EEF0081BB9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15FA74E71C1F2EEF0081BB9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15FA74E61C1F2EEF0081BB9A /* ASLfishes.app */,
+				15FA74FA1C1F2EEF0081BB9A /* ASLfishesTests.xctest */,
+				15FA75051C1F2EEF0081BB9A /* ASLfishesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FA74E81C1F2EEF0081BB9A /* ASLfishes */ = {
+			isa = PBXGroup;
+			children = (
+				15FA74E91C1F2EEF0081BB9A /* AppDelegate.swift */,
+				15FA74EB1C1F2EEF0081BB9A /* ViewController.swift */,
+				15FA75171C1F31040081BB9A /* ContentViewController.swift */,
+				15FA74ED1C1F2EEF0081BB9A /* Main.storyboard */,
+				15FA74F01C1F2EEF0081BB9A /* Images.xcassets */,
+				15FA74F21C1F2EEF0081BB9A /* LaunchScreen.storyboard */,
+				15FA74F51C1F2EEF0081BB9A /* Info.plist */,
+			);
+			path = ASLfishes;
+			sourceTree = "<group>";
+		};
+		15FA74FD1C1F2EEF0081BB9A /* ASLfishesTests */ = {
+			isa = PBXGroup;
+			children = (
+				15FA74FE1C1F2EEF0081BB9A /* ASLfishesTests.swift */,
+				15FA75001C1F2EEF0081BB9A /* Info.plist */,
+			);
+			path = ASLfishesTests;
+			sourceTree = "<group>";
+		};
+		15FA75081C1F2EEF0081BB9A /* ASLfishesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15FA75091C1F2EEF0081BB9A /* ASLfishesUITests.swift */,
+				15FA750B1C1F2EEF0081BB9A /* Info.plist */,
+			);
+			path = ASLfishesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15FA74E51C1F2EEF0081BB9A /* ASLfishes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FA750E1C1F2EEF0081BB9A /* Build configuration list for PBXNativeTarget "ASLfishes" */;
+			buildPhases = (
+				15FA74E21C1F2EEF0081BB9A /* Sources */,
+				15FA74E31C1F2EEF0081BB9A /* Frameworks */,
+				15FA74E41C1F2EEF0081BB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASLfishes;
+			productName = ASLfishes;
+			productReference = 15FA74E61C1F2EEF0081BB9A /* ASLfishes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15FA74F91C1F2EEF0081BB9A /* ASLfishesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FA75111C1F2EEF0081BB9A /* Build configuration list for PBXNativeTarget "ASLfishesTests" */;
+			buildPhases = (
+				15FA74F61C1F2EEF0081BB9A /* Sources */,
+				15FA74F71C1F2EEF0081BB9A /* Frameworks */,
+				15FA74F81C1F2EEF0081BB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15FA74FC1C1F2EEF0081BB9A /* PBXTargetDependency */,
+			);
+			name = ASLfishesTests;
+			productName = ASLfishesTests;
+			productReference = 15FA74FA1C1F2EEF0081BB9A /* ASLfishesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15FA75041C1F2EEF0081BB9A /* ASLfishesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FA75141C1F2EEF0081BB9A /* Build configuration list for PBXNativeTarget "ASLfishesUITests" */;
+			buildPhases = (
+				15FA75011C1F2EEF0081BB9A /* Sources */,
+				15FA75021C1F2EEF0081BB9A /* Frameworks */,
+				15FA75031C1F2EEF0081BB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15FA75071C1F2EEF0081BB9A /* PBXTargetDependency */,
+			);
+			name = ASLfishesUITests;
+			productName = ASLfishesUITests;
+			productReference = 15FA75051C1F2EEF0081BB9A /* ASLfishesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15FA74DE1C1F2EEF0081BB9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chris Wood";
+				TargetAttributes = {
+					15FA74E51C1F2EEF0081BB9A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					15FA74F91C1F2EEF0081BB9A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 15FA74E51C1F2EEF0081BB9A;
+					};
+					15FA75041C1F2EEF0081BB9A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 15FA74E51C1F2EEF0081BB9A;
+					};
+				};
+			};
+			buildConfigurationList = 15FA74E11C1F2EEF0081BB9A /* Build configuration list for PBXProject "ASLfishes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15FA74DD1C1F2EEF0081BB9A;
+			productRefGroup = 15FA74E71C1F2EEF0081BB9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15FA74E51C1F2EEF0081BB9A /* ASLfishes */,
+				15FA74F91C1F2EEF0081BB9A /* ASLfishesTests */,
+				15FA75041C1F2EEF0081BB9A /* ASLfishesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15FA74E41C1F2EEF0081BB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA74F41C1F2EEF0081BB9A /* LaunchScreen.storyboard in Resources */,
+				15FA74F11C1F2EEF0081BB9A /* Images.xcassets in Resources */,
+				15FA74EF1C1F2EEF0081BB9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FA74F81C1F2EEF0081BB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FA75031C1F2EEF0081BB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FA74E21C1F2EEF0081BB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA74EC1C1F2EEF0081BB9A /* ViewController.swift in Sources */,
+				15FA75181C1F31040081BB9A /* ContentViewController.swift in Sources */,
+				15FA74EA1C1F2EEF0081BB9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FA74F61C1F2EEF0081BB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA74FF1C1F2EEF0081BB9A /* ASLfishesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15FA75011C1F2EEF0081BB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FA750A1C1F2EEF0081BB9A /* ASLfishesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15FA74FC1C1F2EEF0081BB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15FA74E51C1F2EEF0081BB9A /* ASLfishes */;
+			targetProxy = 15FA74FB1C1F2EEF0081BB9A /* PBXContainerItemProxy */;
+		};
+		15FA75071C1F2EEF0081BB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15FA74E51C1F2EEF0081BB9A /* ASLfishes */;
+			targetProxy = 15FA75061C1F2EEF0081BB9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15FA74ED1C1F2EEF0081BB9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FA74EE1C1F2EEF0081BB9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15FA74F21C1F2EEF0081BB9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FA74F31C1F2EEF0081BB9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15FA750C1C1F2EEF0081BB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15FA750D1C1F2EEF0081BB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15FA750F1C1F2EEF0081BB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASLfishes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASLfishes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15FA75101C1F2EEF0081BB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASLfishes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASLfishes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15FA75121C1F2EEF0081BB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASLfishesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASLfishesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASLfishes.app/ASLfishes";
+			};
+			name = Debug;
+		};
+		15FA75131C1F2EEF0081BB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASLfishesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASLfishesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASLfishes.app/ASLfishes";
+			};
+			name = Release;
+		};
+		15FA75151C1F2EEF0081BB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ASLfishesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASLfishesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ASLfishes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15FA75161C1F2EEF0081BB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ASLfishesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASLfishesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ASLfishes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15FA74E11C1F2EEF0081BB9A /* Build configuration list for PBXProject "ASLfishes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FA750C1C1F2EEF0081BB9A /* Debug */,
+				15FA750D1C1F2EEF0081BB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FA750E1C1F2EEF0081BB9A /* Build configuration list for PBXNativeTarget "ASLfishes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FA750F1C1F2EEF0081BB9A /* Debug */,
+				15FA75101C1F2EEF0081BB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FA75111C1F2EEF0081BB9A /* Build configuration list for PBXNativeTarget "ASLfishesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FA75121C1F2EEF0081BB9A /* Debug */,
+				15FA75131C1F2EEF0081BB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15FA75141C1F2EEF0081BB9A /* Build configuration list for PBXNativeTarget "ASLfishesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15FA75151C1F2EEF0081BB9A /* Debug */,
+				15FA75161C1F2EEF0081BB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15FA74DE1C1F2EEF0081BB9A /* Project object */;
+}
