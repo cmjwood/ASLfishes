@@ -42,10 +42,9 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func skipAction(sender: AnyObject) {
-    }
     
+    @IBAction func skipButtonPressed(sender: AnyObject) {
+    }
     func viewControllerAtIndex(index: Int) -> ContentViewController {
         
         if ((self.pageTitles.count == 0) || (index >= self.pageTitles.count))

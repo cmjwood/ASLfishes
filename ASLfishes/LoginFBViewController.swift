@@ -1,28 +1,17 @@
 //
-//  ContentViewController.swift
+//  LoginFBViewController.swift
 //  ASLfishes
 //
-//  Created by Casey Wood on 12/14/15.
+//  Created by Casey Wood on 12/15/15.
 //  Copyright © 2015 Chris Wood. All rights reserved.
 //
 
 import UIKit
 
-class ContentViewController: UIViewController {
+class LoginFBViewController: UIViewController {
 
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-
-    
-    var pageIndex: Int!
-    var titleText: String!
-    var imageFile: String!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.imageView.image = UIImage(named: self.imageFile)
-        self.titleLabel.text = self.titleText
 
         // Do any additional setup after loading the view.
     }
@@ -31,6 +20,7 @@ class ContentViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
     /*
     // MARK: - Navigation
@@ -41,5 +31,11 @@ class ContentViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func loginFBButton(sender: AnyObject) {
+    }
+  
+    @IBAction func infoButton(sender: AnyObject) {
+    }
+    }
 
-}
+

@@ -15,6 +15,11 @@
 		15FA74FF1C1F2EEF0081BB9A /* ASLfishesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA74FE1C1F2EEF0081BB9A /* ASLfishesTests.swift */; };
 		15FA750A1C1F2EEF0081BB9A /* ASLfishesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75091C1F2EEF0081BB9A /* ASLfishesUITests.swift */; };
 		15FA75181C1F31040081BB9A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75171C1F31040081BB9A /* ContentViewController.swift */; };
+		15FA751D1C20AFB80081BB9A /* LoginFBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA751C1C20AFB80081BB9A /* LoginFBViewController.swift */; };
+		15FA751F1C20BBEA0081BB9A /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA751E1C20BBEA0081BB9A /* IntroductionViewController.swift */; };
+		15FA75211C20BBFA0081BB9A /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75201C20BBFA0081BB9A /* FilterViewController.swift */; };
+		15FA75231C20FF850081BB9A /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75221C20FF850081BB9A /* UsersViewController.swift */; };
+		15FA75251C20FFBF0081BB9A /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75241C20FFBF0081BB9A /* EditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		15FA75091C1F2EEF0081BB9A /* ASLfishesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLfishesUITests.swift; sourceTree = "<group>"; };
 		15FA750B1C1F2EEF0081BB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15FA75171C1F31040081BB9A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		15FA751C1C20AFB80081BB9A /* LoginFBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFBViewController.swift; sourceTree = "<group>"; };
+		15FA751E1C20BBEA0081BB9A /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		15FA75201C20BBFA0081BB9A /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		15FA75221C20FF850081BB9A /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		15FA75241C20FFBF0081BB9A /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				15FA74E91C1F2EEF0081BB9A /* AppDelegate.swift */,
 				15FA74EB1C1F2EEF0081BB9A /* ViewController.swift */,
 				15FA75171C1F31040081BB9A /* ContentViewController.swift */,
+				15FA751C1C20AFB80081BB9A /* LoginFBViewController.swift */,
+				15FA751E1C20BBEA0081BB9A /* IntroductionViewController.swift */,
+				15FA75201C20BBFA0081BB9A /* FilterViewController.swift */,
+				15FA75221C20FF850081BB9A /* UsersViewController.swift */,
+				15FA75241C20FFBF0081BB9A /* EditProfileViewController.swift */,
 				15FA74ED1C1F2EEF0081BB9A /* Main.storyboard */,
 				15FA74F01C1F2EEF0081BB9A /* Images.xcassets */,
 				15FA74F21C1F2EEF0081BB9A /* LaunchScreen.storyboard */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15FA75251C20FFBF0081BB9A /* EditProfileViewController.swift in Sources */,
+				15FA75211C20BBFA0081BB9A /* FilterViewController.swift in Sources */,
 				15FA74EC1C1F2EEF0081BB9A /* ViewController.swift in Sources */,
+				15FA751F1C20BBEA0081BB9A /* IntroductionViewController.swift in Sources */,
+				15FA75231C20FF850081BB9A /* UsersViewController.swift in Sources */,
 				15FA75181C1F31040081BB9A /* ContentViewController.swift in Sources */,
+				15FA751D1C20AFB80081BB9A /* LoginFBViewController.swift in Sources */,
 				15FA74EA1C1F2EEF0081BB9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
