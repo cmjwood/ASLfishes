@@ -20,6 +20,7 @@
 		15FA75211C20BBFA0081BB9A /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75201C20BBFA0081BB9A /* FilterViewController.swift */; };
 		15FA75231C20FF850081BB9A /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75221C20FF850081BB9A /* UsersViewController.swift */; };
 		15FA75251C20FFBF0081BB9A /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75241C20FFBF0081BB9A /* EditProfileViewController.swift */; };
+		15FA75271C2110B80081BB9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA75261C2110B80081BB9A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		15FA75201C20BBFA0081BB9A /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		15FA75221C20FF850081BB9A /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		15FA75241C20FFBF0081BB9A /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		15FA75261C2110B80081BB9A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				15FA75201C20BBFA0081BB9A /* FilterViewController.swift */,
 				15FA75221C20FF850081BB9A /* UsersViewController.swift */,
 				15FA75241C20FFBF0081BB9A /* EditProfileViewController.swift */,
+				15FA75261C2110B80081BB9A /* SettingsViewController.swift */,
 				15FA74ED1C1F2EEF0081BB9A /* Main.storyboard */,
 				15FA74F01C1F2EEF0081BB9A /* Images.xcassets */,
 				15FA74F21C1F2EEF0081BB9A /* LaunchScreen.storyboard */,
@@ -282,6 +285,7 @@
 				15FA75181C1F31040081BB9A /* ContentViewController.swift in Sources */,
 				15FA751D1C20AFB80081BB9A /* LoginFBViewController.swift in Sources */,
 				15FA74EA1C1F2EEF0081BB9A /* AppDelegate.swift in Sources */,
+				15FA75271C2110B80081BB9A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

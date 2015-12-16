@@ -1148,7 +1148,7 @@
         <!--Settings-->
         <scene sceneID="0jZ-OS-Vq7">
             <objects>
-                <viewController id="XOy-9u-1Ib" sceneMemberID="viewController">
+                <viewController id="XOy-9u-1Ib" customClass="SettingsViewController" customModule="ASLfishes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ljW-M5-QAq"/>
                         <viewControllerLayoutGuide type="bottom" id="qko-Ru-lbB"/>
